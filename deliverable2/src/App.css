@@ -2,9 +2,12 @@
   text-align: center;
 
 }
+
 .Conteiner {
-  width: 40%;
-  height: 600px;
+  width: 60%;
+  height: 450px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   margin-top: 2.5rem;
   background-color: black;
@@ -17,51 +20,29 @@
   line-height: normal;
   text-align: center;
   align-items: center;
-  justify-content:center;
-  flex-direction: column;
+  justify-content:space-around;
+  flex-direction: row;
   margin-left: 2%;
 }
 
-.imgWeather > img {
-  max-width: 100%;
-  max-height: 90%;
-  border-radius: 3%;
+
+.cloud {
+  width: 200px;
+}
+
+.degees {
+  margin-top: -20px;
+}
+
+.contentImg {
+margin: 10px;
+}
+
+ .ContentData{
+  margin: 10px;
+  margin-top: 20px;
  }
- 
-.contentRes {
-  width: 500px;
-  height: 350px;
-  display:flex;
-  flex-direction: row;
-  text-align: start;
-  justify-content:space-between;
-  border-radius: 12px;
-  background-color: rgb(3, 75, 94);
-  color: bisque;
-}
 
-.resApi {
-  width: 100%;
-  height: 100%;
-  display:flex;
-  flex-direction:column;
-  text-align: center;
-  align-items: center;
-  justify-content:center;
-}
-.resApi > h1 {
-  text-align: start;
-}
-.resApi > p {
-  margin-top: 0;
-}
-
-.form {
-  width: 40%;
-}
-
-.search { 
-  width: 20%;
-  height: auto;
-  margin-bottom: 3px;
-}
+ button {
+   margin-top: 20px;
+ }
